@@ -1,14 +1,11 @@
 POKEAPI React📌
 ============
 
-***
-
 ## Introducción🚀 
 
 ## FrontEnd 01
 
-> Partiendo del siguiente endPoint [https://pokeapi.co/api/v2/pokemon](https://pokeapi.co/api/v2/pokemon): Desarrolla una aplicación Javascript que muestre una lista de los pokemons que aparecen.
-
+Partiendo del siguiente endPoint [https://pokeapi.co/api/v2/pokemon](https://pokeapi.co/api/v2/pokemon): Desarrolla una aplicación Javascript que muestre una lista de los pokemons que aparecen.
 
 ## Objetivos de la práctica🛫 
 
@@ -22,18 +19,15 @@ POKEAPI React📌
 
 5.- Redactar un readme explicando como usar la aplicación.
 
-
 ## Comenzando 🚀 
 Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu ordenador local, para propósitos de desarrollo y pruebas:
 
 Abre la terminal y ejecuta:
 
-1. Clone git https://github.com/.git para descargar el proyecto, realiza un fork.
-
+* Clone git https://github.com/belcar-ceci/PokeApi-React.git para descargar el proyecto, realiza un fork.
 
 ## Install
-
-- npm install
+- npm install(node)
 
 ## Available Scripts
 
@@ -52,24 +46,12 @@ You may also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
 ## Wireframe 🛸
 Wireframe de la idea principal del proyecto con funcionalidad:
 
 <p align="center"> 
-  <img src="./public/img/Readme.MD/movil.png?raw=true" width=60%>
-  <img src="./public/img/Readme.MD/destopk.png?raw=true" width=60%>
+  <img src="./public/img/Readme.MD/demo.gif?raw=true" alt="animated" width=60%>
+  
 </p>
 
 
