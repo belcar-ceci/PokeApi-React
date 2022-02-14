@@ -1,17 +1,18 @@
 import React, { useEffect, useState } from 'react';
 import Card from './components/Card';
+
 //import Landing from './pages/Landing';
 
 const App = () => {
 
   const[allPokemons, setAllPokemons] = useState([])
-   const [loadMore, setLoadMore] = useState('https://pokeapi.co/api/v2/pokemon?limit=20')
+   const [loading, setLoading] = useState('https://pokeapi.co/api/v2/pokemon?limit=20')
 
   const getAllPokemons = async () => {
-    const res = await fetch(loadMore)
+    const res = await fetch(loading)
     const data = await res.json()
 
-    setLoadMore(data.next)
+    setLoading(data.next)
 
     function createPokemon(results)  {
       results.forEach( async pokemon => {
