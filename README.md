@@ -50,7 +50,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 Wireframe de la idea principal del proyecto con funcionalidad:
 
 <p align="center"> 
-  <img src="./public/img/Readme.MD/demo.gif?raw=true" alt="animated" width=60%>
+  <img src="./public/img/Readme.MD/demo.gif" alt="animated" width=60%>
   
 </p>
 
