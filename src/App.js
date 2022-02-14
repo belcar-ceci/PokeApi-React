@@ -36,7 +36,13 @@ const App = () => {
       <div className="pokemon-container">
         <div className="all-container">
         {allPokemons.map( (pokemonIndex, index) => 
-            
+            <Card
+            key={index}
+            id={pokemonIndex.id}
+            image={pokemonIndex.sprites.other.dream_world.front_default}
+            name={pokemonIndex.name}
+            type={pokemonIndex.types[0].type.name}
+          />)}
           
         </div>
           <button className="load-more" onClick={() => getAllPokemons()}>Load more</button>
