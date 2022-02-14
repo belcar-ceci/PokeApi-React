@@ -1,38 +1,35 @@
 POKEAPI React📌
 ============
 
-## Introducción🚀 
+## Introduction🚀 
 
-## FrontEnd 01
+## FrontEnd 01. 🏗 
 
-Partiendo del siguiente endPoint [https://pokeapi.co/api/v2/pokemon](https://pokeapi.co/api/v2/pokemon): Desarrolla una aplicación Javascript que muestre una lista de los pokemons que aparecen.
+Starting from the following endPoint  [https://pokeapi.co/api/v2/pokemon](https://pokeapi.co/api/v2/pokemon): Develop a Javascript application that displays a list of the pokemons that appear.
 
-## Objetivos de la práctica🛫 
+## Objectives of the practice🛫 
 
-1.- Mostrar los elementos de la lista (pokemons), como mínimo el nombre del pokemon y una imágen.
+1.- Show the elements of the list (pokemons), at least the name of the pokemon and an image.
 
-2.- Aplicar diseño y estilos de manera libre .
+2.- Apply design and styles freely.
 
-3.- Aplicar Javascript vanilla o cualquier framework o librería (js) que requieras, pero no está permitido usar ningún framework de css.
+3.- Apply Javascript vanilla  or any framework or library (js) that you require, but it is not allowed to use any css framework.
 
-4.- Utilizar Git con commits lo más semánticos posibles.
+4.- Use Git with commits as semantic as possible.
 
-5.- Redactar un readme explicando como usar la aplicación.
+5.- Write a readme explaining how to use the application.
 
-## Comenzando 🚀 
-Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu ordenador local, para propósitos de desarrollo y pruebas:
+## Starting 🚀 
+These instructions will allow you to get a working copy of the project on your local computer, for development and testing purposes:
 
-Abre la terminal y ejecuta:
+Open terminal and run:
 
-* Clone git https://github.com/belcar-ceci/PokeApi-React.git para descargar el proyecto, realiza un fork.
+* Clone git https://github.com/belcar-ceci/PokeApi-React.git to download the project, do a fork.
 
 ## Install
 - npm install(node)
-
 ## Available Scripts
-
 In the project directory, you can run:
-
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -42,32 +39,28 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 ### `npm test`
-
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ## Wireframe 🛸
-Wireframe de la idea principal del proyecto con funcionalidad:
+Wireframe of the main idea of ​​the project with functionality:
 
 <p align="center"> 
   <img src="./public/img/README.MD/demo1.png?raw=true" width=60%>
 </p>
 
 
-## Dependencias 🚁
+## Dependencies 🚁
 
 * Frontend: HTML, CSS..
 * React js
 * Axios
 * React-Router-Dom
-
-
-## Autor🌻 
+## Author🌻 
 
 * Cecilia Carbajal.
-
-## Gratitud 🎁
-* Comenta a otros sobre este proyecto 📢 .
-* Apoya mis proyectos 🐈‍⬛.
+## Gratitude 🎁
+* Tell others about this project 📢 .
+* Support my projects 🐈‍⬛.
 
 
