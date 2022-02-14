@@ -7,7 +7,7 @@ import Card from './components/Card';
 const App = () => {
 
   const[allPokemons, setAllPokemons] = useState([])
-   const [loading, setLoading] = useState('https://pokeapi.co/api/v2/pokemon?limit=20')
+   const [loading, setLoading] = useState('https://pokeapi.co/api/v2/pokemon?limit=5')
 
   const getAllPokemons = async () => {
     const res = await fetch(loading)
