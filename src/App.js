@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Card from './components/Card';
 
+
 //import Landing from './pages/Landing';
 
 const App = () => {
@@ -32,10 +33,19 @@ const App = () => {
  }, [])
 
   return (
-    <div className="app-container">
-     <h1>Pokemon API React</h1>
+    <div className="app-container"> 
+    
+    <div className="center-items">
+      <h1 className="title">Pokemon API React</h1>
+     <button 
+     className="loading-pokemon" 
+     onClick={() => getAllPokemons()}>Load more
+     </button>
+    </div>
+
       <div className="pokemon-container">
         <div className="all-container">
+       
         {allPokemons.map( (pokemonIndex, index) => 
             <Card
             key={index}
@@ -46,7 +56,7 @@ const App = () => {
           />)}
           
         </div>
-          <button className="load-more" onClick={() => getAllPokemons()}>Load more</button>
+        
       </div>
 
     </div>

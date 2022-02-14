@@ -7,8 +7,8 @@ const Card = ({id, image, name, type}) => {
             <div className="item-card">#0{id}</div>
             <img className="image-card" src={image} alt={name} />
             <div className="details-card">
-                <h3>{name}</h3>
-                <p>Type: {type}</p>
+                <h3 className="name-pokemon">{name}</h3>
+                <p className="type-pokemon">Type:{type}</p>
             </div>
         </div>
     )
