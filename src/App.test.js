@@ -16,12 +16,7 @@ test ('renders correctly', () => {
   render(<App allPokemons={pokemonAll}/>)
 })
   
-/*test("Click", () => {
-    const {div} = render(<App />);
 
-    const button = getByTestId(div, 'btn-pokemon');
-    fireEvent.click(button);
-});*/
 test('Click', () => {
     render(<App />);
  
