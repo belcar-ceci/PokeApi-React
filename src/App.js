@@ -7,7 +7,7 @@ import Card from './components/Card';
 const App = () => {
 
   const[allPokemons, setAllPokemons] = useState([])
-   const [loading, setLoading] = useState('https://pokeapi.co/api/v2/pokemon?limit=5')
+   const [loading, setLoading] = useState('https://pokeapi.co/api/v2/pokemon?limit=8')
 
   const getAllPokemons = async () => {
     const res = await fetch(loading)
@@ -38,7 +38,9 @@ const App = () => {
     <div className="center-items">
       <h1 className="title">Pokemon API React</h1>
      <button 
-     className="loading-pokemon" 
+     id="btn-pokemon"
+          className="loading-pokemon" 
+          data-testid="btn-poke"
      onClick={() => getAllPokemons()}>Load more
      </button>
     </div>
